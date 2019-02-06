@@ -326,10 +326,10 @@ public class ProjectAssignment {
 		
 		Project p = GetProjectWithName(s.orderedRankings.get(0));
 		
-//		if (p == null) 
-//		{
-//			return false;
-//		}
+		if (p == null) 
+		{
+			return false;
+		}
 		
 		Random rand = new Random();
 		int index = rand.nextInt(p.members.size());
